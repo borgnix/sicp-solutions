@@ -1,0 +1,1 @@
+By applicative oreder, a argument passed to a procedure should be evaluated first. Changing square procedure into * makes the expmod part calculated twice.

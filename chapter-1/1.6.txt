@@ -1,3 +1,3 @@
 There might be memory exhaustion.
-The new-if is a procedure and it requires sqrt-iter's return value, so every sqrt-iter has to be stored in stack.
-With internal if interpreter could perform tail optimization, so there is no need to store sqrt-iter.
+The "new-if" is a procedure and it requires sqrt-iter's return value, so every sqrt-iter has to be maintained.
+With internal "if" the interpreter could perform tail optimization, there is no need to maintain sqrt-iter.
