@@ -1,0 +1,1 @@
+let A be a interval with a percentage tolerance p and a cent x, and B be a inteval with a percentage tolerance q and a center y, so A is ((1-p)x, (1+p)x) and b is ((1-q)y, (1+q)y). The product of A and B is ((1-p)(1-q)xy, (1+p)(1+q)xy) with center (1+pq)xy and width (p+q)xy. So the new tolerance percentage is (p + q)/(1 + pq).

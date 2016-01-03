@@ -1,0 +1,3 @@
+Suppose there are two intervals i1 = (a, b) and i2 =(x, y),their width are respectively w1 = (b - a)/ 2 and w2 = (y - x) / 2. i1 + i2 = (a + x, b + y), and the width is (b + y - (a + x)) / 2, which is w1 + w2. i1 - i2 = (a - y, b - x), width is (b - x - a + y) / 2, which is also w1 + w2.
+
+for interval (-1, 5) and (-3,2), the width of new interval is not a funcion of old two.

@@ -2,6 +2,7 @@
 *.fasl
 *.lisp-temp
 *.bak
+compiled
 
 # =========================
 # Operating System Files
