@@ -1,0 +1,1 @@
+For every row,it has to calculate queen-cols(- k 1) once.So it may slow down T^boardsize times than before. 
