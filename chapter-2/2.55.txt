@@ -1,0 +1,1 @@
+(car ''abracadabra) equals to (car '(quote abracadabra)) and the first element is quote.
