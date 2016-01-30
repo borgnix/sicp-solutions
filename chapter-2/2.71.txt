@@ -1,0 +1,1 @@
+1 for most frequent symbol and n - 1 for least frequent symbol (5 for N = 5 and 10 for N = 10);
