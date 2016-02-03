@@ -1,0 +1,1 @@
+The local state for acc is kept in newly-created frame when passing an argument to make-account. Because the frame are distinct, acc and acc2's local states are therefore distinct.Their code are shared.
