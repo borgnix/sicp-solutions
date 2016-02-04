@@ -1,0 +1,5 @@
+x:[E1:{x:1, y:2}]
+      
+z:[{x:*x, y:*x}]
+
+*x in z is x in global environment.

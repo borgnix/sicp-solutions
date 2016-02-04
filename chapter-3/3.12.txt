@@ -1,0 +1,4 @@
+(b)
+(b,c,d)
+append create a new pair with x appended with y, and didn't modify x.
+append! change the last null '() pointer to y, so x is changed too.

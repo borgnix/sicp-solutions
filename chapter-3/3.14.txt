@@ -1,0 +1,15 @@
+reverse a list.
+
+v:
+(a, *)-->(b, *)-->(c, *)-->(d, '())
+
+(mystery v)
+(loop v, '())
+(loop (b, c, d), (a))
+(loop (c, d), (b, a))
+(loop (d),(c, b, a))
+(loop '(), (d, c, b, a))
+(d, c, b, a)
+
+v:(a)
+w:(d, c, b, a)
