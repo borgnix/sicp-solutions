@@ -1,0 +1,1 @@
+No. That will not be as efficient as the memo-fib since it can only memorize the argument.
