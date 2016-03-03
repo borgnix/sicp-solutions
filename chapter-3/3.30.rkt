@@ -1,0 +1,15 @@
+#lang racket
+(require "circuit.rkt")
+(define (ripple-carry-adder ak bk sk c)
+  (define (iter a-list b-list s-list c-in)
+    (if (null? a-list)
+        ((set-signal! c (get-signal c-in))
+         'ok)
+        (let ((c-temp (make-wire)))
+          ((begin (full-adder (car a-list) (car b-list) (car s-list) c-in c-temp)
+                  (iter (cdr a-list) (cdr b-list) (cdr s-list) c-temp))))))
+  (let ((zero-wire make-wire))
+    (if (= (length ak) (length bk) (length sk))
+        (iter ak bk ck zero-wire)
+        (error "Input doesn't correspond to output"))))
+;2n and-gate-delay and n or-gate-delay
